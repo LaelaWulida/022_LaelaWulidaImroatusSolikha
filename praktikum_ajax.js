@@ -39,10 +39,10 @@ $(function(){
 
                     //mengkonversi hasil loop tadi ke html
                     data_html +=
-                    '<br>'+
-                    '<img src="' +item.thumbnailUrl + '" alt="">'+
-                    '<br>'+
-                    '<h1>'+ item.id + '. ' + item.title + '</h1>'
+                    '<br>' +
+                    '<img src="' +item.thumbnailUrl + '" alt="">' +
+                    '<br>' +
+                    '<h1>' + item.id + '. ' + item.title + '</h1>'
                 });
 
                 //memasukkan hasil loop tadi ke div dengan id #data_hasil_dari_intenet
